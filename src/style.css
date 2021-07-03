@@ -1,19 +1,19 @@
 body {
     background-color: black;
-    color: rgb(146, 218, 39);
+    color: #971033;
     text-align: center;
 }
 
 /* Main Header1 */
 
 #title {
-    border-bottom: 5px solid rgb(146, 218, 39);
+    border-bottom: 5px solid #971033;
 }
 
 /* make links not look shit */
 
 a {
-    color: rgb(33, 21, 194);
+    color: #971033;
 }
 
 /* Art and related css */
@@ -47,7 +47,7 @@ a {
     display: block;
     margin: 10px auto;
     padding-bottom: 10px;
-    border-top: 5px solid rgb(146, 218, 39);
+    border-top: 5px solid #971033;
 }
 
 
@@ -61,14 +61,14 @@ a {
   .dark-mode {
       background-color: #FAFAFA;
   }
-  
-  .dark-mode #links img{
-      filter: invert(1);
+
+  .dark-mode img {
+    filter: drop-shadow(0 0 0.15rem black);
   }
 
 /* Media queries */
 
-  @media only screen and (max-width: 426px) {
+    @media only screen and (max-width: 426px) {
     .seo-pics {
       grid-template-columns: auto;
     }
@@ -77,11 +77,11 @@ a {
         height: 300px;
     }
     .seo-pics img {
-        filter: none;
+        filter: drop-shadow(0 0 0.15rem black);
         transition: none;
     }
     .seo-pics img:hover {
-        filter: none;
+        filter: drop-shadow(0 0 0.15rem black);
         transform: none;
         z-index: 1;
         transition: none;

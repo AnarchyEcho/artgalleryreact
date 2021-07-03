@@ -46,7 +46,7 @@ function App() {
           </Switch>
         </div>
 
-        <div id="projects">
+        <div id="portfolio">
           <Switch>
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
