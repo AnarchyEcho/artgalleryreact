@@ -3,12 +3,12 @@ import React from "react"
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import Style from "../style.css"
-import portrait from "../media/afk.jpg"
+import portrait from "../media/cute.jpg"
 
 function Portrait() {
   return (
     <>
-      <img src={portrait} alt="Portrait of author"></img>
+      <img src={portrait} alt="Portrait of author" width="500px"></img>
     </>
   );
 }

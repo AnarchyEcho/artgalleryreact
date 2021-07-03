@@ -1,12 +1,12 @@
 body {
-    background-color: black;
+    background-color: #121212;
     color: #971033;
     text-align: center;
 }
 
 /* Main Header1 */
 
-#title {
+#navbar {
     border-bottom: 5px solid #971033;
 }
 
@@ -14,6 +14,12 @@ body {
 
 a {
     color: #971033;
+}
+
+/* Portrait */
+
+#portrait {
+    margin-top: 5px;
 }
 
 /* Art and related css */
@@ -85,6 +91,9 @@ a {
         transform: none;
         z-index: 1;
         transition: none;
+    }
+    #portrait img{
+        width: 200px;
     }
 }
 
