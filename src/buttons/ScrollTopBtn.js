@@ -8,7 +8,7 @@ function ScrollTopBtn() {
   // css for the button
     let style = { display: "block",
         position: "fixed",
-        bottom: "20px",
+        bottom: "3%",
         right: "3%",
         zIndex: "99",
         border: "none",
@@ -44,7 +44,7 @@ function ScrollTopBtn() {
 
     return (
     <>
-      <button onClick={topFunction} style={style}>Up</button>
+      <button onClick={topFunction} style={style}>^</button>
     </>
   );
 }

@@ -19,6 +19,7 @@ function BtnDark() {
       fontSize: "20px",
       cursor: "pointer",
       border: "2px solid #121212",
+      margin: "5px 0 5px 0"
    }
 
     // function that toggles targeted css from css file

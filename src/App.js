@@ -15,6 +15,7 @@ import DarkBtn from "./buttons/BtnDark"
 import ScrollTopBtn from "./buttons/ScrollTopBtn"
 // eslint-disable-next-line
 import Portfolio from "./components/Portfolio"
+import Footer from "./components/Footer"
 
 
 // app with routing for Single-Page Application (SPA)
@@ -32,7 +33,7 @@ function App() {
       <div id="main">
       
         <div id="title">
-            <h1>Immy's Portfolio</h1> <hr />
+            <h1>Immy's Portfolio</h1>
         </div>
 
         <div id="darkbtn">
@@ -60,7 +61,10 @@ function App() {
         <div id="scrollBtn">
           <ScrollTopBtn />
         </div>
-
+      
+        <div id="footer">
+          <Footer />
+        </div>
         
       </div>
 
