@@ -13,7 +13,7 @@ function BtnDark() {
     
     // css for the button
     const style = {
-      backgroundImage: "linear-gradient(0deg, #fe9000 0%, #ffb34f 100%)",
+      backgroundColor: "#92da27",
       color: "#000",
       borderRadius: "3%",
       fontSize: "20px",

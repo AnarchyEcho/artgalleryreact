@@ -3,7 +3,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import Style from "../style.css"
-import portrait from "../media/react-logo/logo512.png"
+import portrait from "../media/afk.jpg"
 
 function Portrait() {
   return (

@@ -8,15 +8,13 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-rou
 import Style from "./style.css"
 
 import Portrait from "./components/Portrait"
-import Links from "./components/Links"
 // eslint-disable-next-line
 import About from "./components/About"
 // eslint-disable-next-line
 import DarkBtn from "./buttons/BtnDark"
 import ScrollTopBtn from "./buttons/ScrollTopBtn"
 // eslint-disable-next-line
-import Projects from "./components/Projects"
-import Header from "./components/Header"
+import Portfolio from "./components/Portfolio"
 
 
 // app with routing for Single-Page Application (SPA)
@@ -28,13 +26,13 @@ function App() {
       <Router>
       
       <div id="sidebar">
-        <Header />
+        
       </div>
 
       <div id="main">
       
         <div id="title">
-            <h1>Andrè's CV Website</h1> <hr />
+            <h1>Immy's Portfolio</h1> <hr />
         </div>
 
         <div id="darkbtn">
@@ -49,7 +47,7 @@ function App() {
 
         <div id="projects">
           <Switch>
-            <Route path="/projects" component={Projects} />
+            <Route path="/portfolio" component={Portfolio} />
           </Switch>
         </div>
 
@@ -63,11 +61,6 @@ function App() {
           <ScrollTopBtn />
         </div>
 
-        <hr />
-
-        <div id="links">
-          <Links />
-        </div>
         
       </div>
 
