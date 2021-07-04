@@ -7,7 +7,7 @@ import Style from "../style.css"
 const Header = () => {
     return (
       <div id="navbar">
-        <h1>Immy's Portfolio</h1>
+        <Link to="/" id="title">Immy's Portfolio</Link>
         <Link to="/" id="home">Home </Link>
         <Link to="Portfolio" id="port">Portfolio </Link>
         <Link to="About" id="about">About </Link>
