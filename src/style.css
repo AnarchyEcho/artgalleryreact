@@ -2,18 +2,50 @@ body {
     background-color: #121212;
     color: #971033;
     text-align: center;
+    max-width: 100vw;
+    max-height: 100vh;
 }
 
 /* Main Header1 */
 
 #navbar {
     border-bottom: 5px solid #971033;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 0fr;
+    grid-template-areas:
+    "Title Title Title"
+    "Home Portfolio About";
+    justify-items: center;
+    align-items: center;
 }
 
-/* make links not look shit */
+#navbar h1 {
+    font-size: 36px;
+    grid-area: Title;
+}
 
-a {
+#navbar #home {
+    grid-area: Home;
+}
+
+#navbar #port {
+    grid-area: Portfolio;
+}
+
+#navbar #about {
+    grid-area: About;
+}
+
+#navbar #home, #navbar #port, #navbar #about {
     color: #971033;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#navbar #home:hover, #navbar #port:hover, #navbar #about:hover {
+    color: rgb(158, 158, 158);
 }
 
 /* Portrait */
@@ -29,7 +61,6 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
     gap: 10px;
     justify-items: center;
-    max-width: 100%;
     height: auto;
     background-size: contain;
     padding: 10px 0;
@@ -54,6 +85,10 @@ a {
     margin: 10px auto;
     padding-bottom: 10px;
     border-top: 5px solid #971033;
+}
+
+#footer a {
+    color: #971033;
 }
 
 

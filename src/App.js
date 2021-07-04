@@ -17,7 +17,7 @@ import ScrollTopBtn from "./buttons/ScrollTopBtn"
 // eslint-disable-next-line
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Header"
 
 
 
@@ -31,8 +31,8 @@ function App() {
 
       <div id="main">
       
-        <div id="navbar">
-        <Navbar />
+        <div>
+          <Navbar />
         </div>
 
         <div id="darkbtn">
