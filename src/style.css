@@ -65,7 +65,7 @@ body {
 .seo-pics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
-    gap: 10px;
+    gap: 10px 0px;
     justify-items: center;
     height: auto;
     background-size: contain;
