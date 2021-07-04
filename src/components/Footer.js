@@ -7,7 +7,7 @@ import Style from "../style.css"
 export default function About() {
   return (
     <div>
-        <p>Link to Immy's Medias</p>
+        <p><b>Link to Immy's Medias</b></p>
         <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">Instagram</a>
     </div>
   );
