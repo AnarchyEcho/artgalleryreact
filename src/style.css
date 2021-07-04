@@ -113,21 +113,19 @@ body {
     filter: drop-shadow(0 0 0.15rem black);
   }
 
+
 /* Scrollbar css */
 
 /* width */
-::-webkit-scrollbar
-  {
+::-webkit-scrollbar {
     width: 10px;
   }
 
-  ::-webkit-scrollbar-track
-  {
+  ::-webkit-scrollbar-track {
     background-color: #121212;
   }
 
-  ::-webkit-scrollbar-thumb
-  {
+  ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #971033;
   }
