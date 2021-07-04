@@ -7,7 +7,7 @@ import Style from "../style.css"
 export default function About() {
   return (
     <div>
-      <p>placeholder</p>
+      <p>Amazing artist</p>
     </div>
   );
 }

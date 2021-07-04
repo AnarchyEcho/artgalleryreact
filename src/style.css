@@ -107,6 +107,33 @@ body {
     filter: drop-shadow(0 0 0.15rem black);
   }
 
+/* Scrollbar css */
+
+/* width */
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track
+  {
+    border-radius: 10px;
+    background-color: #121212;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb
+  {
+    border-radius: 10px;
+    background-color: #971033;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a8123a;
+  }
+
 /* Media queries */
 
     @media only screen and (max-width: 426px) {
