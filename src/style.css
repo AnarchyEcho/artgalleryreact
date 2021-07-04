@@ -6,7 +6,7 @@ body {
     max-height: 100vh;
 }
 
-/* Main Header1 */
+/* Navbar */
 
 #navbar {
     border-bottom: 5px solid #971033;
@@ -38,7 +38,7 @@ body {
     grid-area: About;
 }
 
-#navbar #home, #navbar #port, #navbar #about {
+#navbar #home, #navbar #port, #navbar #about, #navbar #title {
     color: #971033;
     text-decoration: none;
     font-size: 24px;

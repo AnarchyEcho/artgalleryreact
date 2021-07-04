@@ -1,6 +1,6 @@
 import React from 'react'
 // eslint-disable-next-line
-import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory} from 'react-router-dom';
 // eslint-disable-next-line
 import Style from "../style.css"
 
@@ -12,7 +12,7 @@ const Header = () => {
         <Link to="Portfolio" id="port">Portfolio </Link>
         <Link to="About" id="about">About </Link>
       </div>
-    );
-  };
-  
+    )
+  }
+
   export default Header;
