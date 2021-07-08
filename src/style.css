@@ -62,6 +62,18 @@ body {
 
 /* Art and related css */
 
+iframe {
+    height: 100vh;
+    max-height: 100vh;
+    border: none;
+    width: 100%;
+    height: 100vh;
+}
+
+iframe ::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
 .seo-pics {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
