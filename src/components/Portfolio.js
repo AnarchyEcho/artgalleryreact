@@ -19,11 +19,16 @@ import Style from "../style.css"
 // import Tiddy from "../media/tiddy.png"
 
 
-
 export default function Portfolio() {
   return (
     <div className="seo-pics">
-        <iframe scrolling="auto" src="https://drive.google.com/embeddedfolderview?id=1TVgHW-jPoRmAldIItbyN3WPoEnMH1iR4#grid" title="Immy's art"></iframe>
+        <iframe 
+        name="portfolio"
+        id="portfolio"
+        scrolling="auto"
+        src="https://drive.google.com/embeddedfolderview?id=1TVgHW-jPoRmAldIItbyN3WPoEnMH1iR4#grid"
+        title="Immy's art">
+        </iframe>
     </div>
   )
 }
