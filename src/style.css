@@ -4,6 +4,15 @@ body {
     text-align: center;
     max-width: 100vw;
     max-height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+a {
+    font-size: 1.2rem;
 }
 
 /* Navbar */
@@ -28,7 +37,7 @@ body {
 
 #navbar #title {
     grid-area: Title;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
 }
 
@@ -47,7 +56,7 @@ body {
 #navbar #home, #navbar #port, #navbar #about {
     color: #971033;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 #navbar #home:hover, #navbar #port:hover, #navbar #about:hover {

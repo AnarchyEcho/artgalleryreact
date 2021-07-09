@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link, Redirect, useHistory} fro
 // eslint-disable-next-line
 import Style from "../style.css"
 
-const Header = () => {
+export default function Header() {
     return (
       <div id="navbar">
         <Link to="/" id="title">Immy's Portfolio</Link>
@@ -14,5 +14,3 @@ const Header = () => {
       </div>
     )
   }
-
-  export default Header;
