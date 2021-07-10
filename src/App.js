@@ -22,7 +22,7 @@ import Navbar from "./components/Header"
 
 
 // app with routing for Single-Page Application (SPA)
-function App() {
+export default function App() {
 
   return (
     <div id="appBody">
@@ -61,7 +61,7 @@ function App() {
           <ScrollTopBtn />
         </div>
       
-        <div id="footer">
+        <div className="footer">
           <Footer />
         </div>
         
@@ -72,5 +72,3 @@ function App() {
     </div>
   );
 }
-
-export default App

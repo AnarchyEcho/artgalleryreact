@@ -6,9 +6,21 @@ import Style from "../style.css"
 
 export default function About() {
   return (
-    <div>
+    <div id="footer">
+      <div id="copyright">
+        <p>&copy; Copyright 2021 Andre Hagen</p>
+        <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF IMMU.JPG</p>
+      </div>
+
+      <div id="links">
         <p><b>Link to Immy's Medias</b></p>
         <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+
+      <div id="contact">
+        <p><b>Contact me</b></p>
+        <p><a href = "mailto: immyroseclark@gmail.com">Send me an email</a></p>
+      </div>
     </div>
   );
 }
