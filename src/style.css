@@ -191,17 +191,17 @@ iframe {
     .seo-pics img {
         width: 300px;
         height: 300px;
-    }
+    }*/
     .seo-pics img {
         filter: drop-shadow(0 0 0.15rem black);
         transition: none;
     }
-    .seo-pics img:hover {
+    /* .seo-pics img:hover {
         filter: drop-shadow(0 0 0.15rem black);
         transform: none;
         z-index: 1;
         transition: none;
-    } */
+    }  */
     
 }
 
