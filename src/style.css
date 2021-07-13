@@ -37,8 +37,8 @@ a {
 }
 
 #navbar #title {
-    justify-self: stretch;
-    align-self: stretch;
+    justify-self: center;
+    align-self: center;
     grid-area: Title;
     font-size: 2.5rem;
     margin: 1rem 0;
