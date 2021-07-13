@@ -9,7 +9,7 @@ export default function About() {
     <div id="footer">
       <div id="copyright">
         <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF IMMU.JPG</p>
-        <p>&copy; Copyright 2021 <a href="https://github.com/KodeAndre" target="_blank" rel="noreferrer">Andre Hagen</a></p>
+        <p>&copy; Copyright 2021 <a href="https://github.com/anarchytrex" target="_blank" rel="noreferrer">Andre Hagen</a></p>
       </div>
 
       <div id="links">
