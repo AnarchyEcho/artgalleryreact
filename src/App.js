@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div id="appBody">
 
-      <Router>
+      <Router basename="/artgalleryreact">
 
       <div id="main">
       
