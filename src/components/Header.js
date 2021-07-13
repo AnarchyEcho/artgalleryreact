@@ -10,7 +10,7 @@ export default function Header() {
         <Link to="/" id="title">Immy's Portfolio</Link>
         <Link to="/" id="home">Home </Link>
         <Link to="Portfolio" id="port">Portfolio </Link>
-        <Link to="Commercial" id="commercial">Commercial Art</Link>
+        <Link to="Commercial" id="commercial">Commercial Portfolio</Link>
         <Link to="About" id="about">About </Link>
       </div>
     )
