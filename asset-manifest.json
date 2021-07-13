@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/artgalleryreact/static/css/main.a4086a64.chunk.css",
+    "main.css": "/artgalleryreact/static/css/main.aa7d4ac2.chunk.css",
     "main.js": "/artgalleryreact/static/js/main.10dd8ff3.chunk.js",
     "main.js.map": "/artgalleryreact/static/js/main.10dd8ff3.chunk.js.map",
     "runtime-main.js": "/artgalleryreact/static/js/runtime-main.42aba40d.js",
@@ -8,14 +8,14 @@
     "static/js/2.41687c12.chunk.js": "/artgalleryreact/static/js/2.41687c12.chunk.js",
     "static/js/2.41687c12.chunk.js.map": "/artgalleryreact/static/js/2.41687c12.chunk.js.map",
     "index.html": "/artgalleryreact/index.html",
-    "static/css/main.a4086a64.chunk.css.map": "/artgalleryreact/static/css/main.a4086a64.chunk.css.map",
+    "static/css/main.aa7d4ac2.chunk.css.map": "/artgalleryreact/static/css/main.aa7d4ac2.chunk.css.map",
     "static/js/2.41687c12.chunk.js.LICENSE.txt": "/artgalleryreact/static/js/2.41687c12.chunk.js.LICENSE.txt",
     "static/media/pinkgirl.d14a69c0.png": "/artgalleryreact/static/media/pinkgirl.d14a69c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.42aba40d.js",
     "static/js/2.41687c12.chunk.js",
-    "static/css/main.a4086a64.chunk.css",
+    "static/css/main.aa7d4ac2.chunk.css",
     "static/js/main.10dd8ff3.chunk.js"
   ]
 }
