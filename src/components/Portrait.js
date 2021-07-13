@@ -8,7 +8,7 @@ import portrait from "../media/pinkgirl.png"
 export default function Portrait() {
   return (
     <>
-      <img src={portrait} alt="Portrait of author" width="500px"></img>
+      <img src={portrait} id="portraitimage" alt="Portrait of author" width="500px"></img>
     </>
   );
 }

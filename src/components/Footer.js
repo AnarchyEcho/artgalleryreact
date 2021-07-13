@@ -8,8 +8,8 @@ export default function About() {
   return (
     <div id="footer">
       <div id="copyright">
-        <p>&copy; Copyright 2021 Andre Hagen</p>
         <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF IMMU.JPG</p>
+        <p>&copy; Copyright 2021 Andre Hagen</p>
       </div>
 
       <div id="links">

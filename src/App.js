@@ -18,6 +18,7 @@ import ScrollTopBtn from "./buttons/ScrollTopBtn"
 import Portfolio from "./components/Portfolio"
 import Footer from "./components/Footer"
 import Navbar from "./components/Header"
+import Commercial from "./components/Commercial"
 
 
 
@@ -54,6 +55,12 @@ export default function App() {
         <div id="about">
           <Switch>
             <Route path="/about" component={About} />
+          </Switch>
+        </div>
+
+        <div id="commercial">
+          <Switch>
+            <Route path="/commercial" component={Commercial} />
           </Switch>
         </div>
 

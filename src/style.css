@@ -20,14 +20,15 @@ a {
 #navbar {
     border-bottom: 5px solid #971033;
     padding-bottom: 5px;
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr;
-    grid-template-rows: 1fr 0fr;
-    grid-template-areas:
-    "Title Title Title"
-    "Home Portfolio About";
-    justify-items: center;
-    align-items: center;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "Title Title Title Title"
+        "Home Portfolio Commercial About"; 
+    justify-items: center; 
+    align-items: center; 
 }
 
 #navbar a {
@@ -36,6 +37,8 @@ a {
 }
 
 #navbar #title {
+    justify-self: stretch;
+    align-self: stretch;
     grid-area: Title;
     font-size: 2.5rem;
     margin: 1rem 0;
@@ -49,17 +52,21 @@ a {
     grid-area: Portfolio;
 }
 
+#navbar #commercial {
+    grid-area: Commercial;
+}
+
 #navbar #about {
     grid-area: About;
 }
 
-#navbar #home, #navbar #port, #navbar #about {
+#navbar #home, #navbar #port, #navbar #about, #navbar #commercial {
     color: #971033;
     text-decoration: none;
     font-size: 1.6rem;
 }
 
-#navbar #home:hover, #navbar #port:hover, #navbar #about:hover {
+#navbar #home:hover, #navbar #port:hover, #navbar #about:hover, #navbar #commercial:hover {
     color: rgb(158, 158, 158);
 }
 
@@ -67,6 +74,10 @@ a {
 
 #portrait {
     margin-top: 5px;
+}
+
+#portraitimage {
+    border-radius: 100%;
 }
 
 /* Art and related css */
@@ -77,7 +88,6 @@ iframe {
     border: none;
     width: 90%;
     height: 100vh;
-    
 }
 
 
