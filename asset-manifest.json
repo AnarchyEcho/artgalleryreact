@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/artgalleryreact/static/css/main.d46f0dcc.chunk.css",
-    "main.js": "/artgalleryreact/static/js/main.fa892039.chunk.js",
-    "main.js.map": "/artgalleryreact/static/js/main.fa892039.chunk.js.map",
+    "main.css": "/artgalleryreact/static/css/main.3a55e8de.chunk.css",
+    "main.js": "/artgalleryreact/static/js/main.8efd2e08.chunk.js",
+    "main.js.map": "/artgalleryreact/static/js/main.8efd2e08.chunk.js.map",
     "runtime-main.js": "/artgalleryreact/static/js/runtime-main.42aba40d.js",
     "runtime-main.js.map": "/artgalleryreact/static/js/runtime-main.42aba40d.js.map",
     "static/js/2.45ba1724.chunk.js": "/artgalleryreact/static/js/2.45ba1724.chunk.js",
     "static/js/2.45ba1724.chunk.js.map": "/artgalleryreact/static/js/2.45ba1724.chunk.js.map",
     "index.html": "/artgalleryreact/index.html",
-    "static/css/main.d46f0dcc.chunk.css.map": "/artgalleryreact/static/css/main.d46f0dcc.chunk.css.map",
+    "static/css/main.3a55e8de.chunk.css.map": "/artgalleryreact/static/css/main.3a55e8de.chunk.css.map",
     "static/js/2.45ba1724.chunk.js.LICENSE.txt": "/artgalleryreact/static/js/2.45ba1724.chunk.js.LICENSE.txt",
     "static/media/pinkgirl.d14a69c0.png": "/artgalleryreact/static/media/pinkgirl.d14a69c0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.42aba40d.js",
     "static/js/2.45ba1724.chunk.js",
-    "static/css/main.d46f0dcc.chunk.css",
-    "static/js/main.fa892039.chunk.js"
+    "static/css/main.3a55e8de.chunk.css",
+    "static/js/main.8efd2e08.chunk.js"
   ]
 }
