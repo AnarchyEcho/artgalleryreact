@@ -3,6 +3,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import Style from "../style.css"
+// eslint-disable-next-line
 import portrait from "../media/pinkgirl.png"
 
 export default function Portrait() {
@@ -11,6 +12,14 @@ export default function Portrait() {
       <a href="https://www.instagram.com/p/CNNl_5uh5iR/?utm_source=ig_web_copy_link%27%7D" target="_blank" rel="noreferrer">
       <img src={portrait} id="portraitimage" alt="Portrait of author" width="500px"></img>
       </a>
+
+      {/* <iframe 
+        name="slideshow"
+        id="slideshow"
+        scrolling="auto"
+        src="https://drive.google.com/embeddedfolderview?id=1ls5zRJlNCXxADTolSwqV3yMX6gfXB4mE#grid"
+        title="Immy's commercial art">
+        </iframe> */}
     </>
   );
 }

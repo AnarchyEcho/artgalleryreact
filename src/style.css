@@ -74,7 +74,8 @@ a {
 /* Portrait */
 
 #portrait {
-    margin-top: 5px;
+    margin-top: 1rem;
+    overflow-x: hidden;
 }
 
 #portraitimage {
@@ -91,7 +92,20 @@ iframe {
     height: 100vh;
 }
 
+#slideshow {
+    width: 100%;
+    height: 25vh;
+    animation: sidescroll 60s linear infinite;
+}
 
+@keyframes sidescroll {
+    0% {
+        transform: translate(100%, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+  }
 
 
 /* .seo-pics {
@@ -128,7 +142,7 @@ iframe {
         "Copyright Links Contact"; 
     justify-items: center; 
     align-items: center; 
-    margin: 10px auto;
+    margin: 0 auto;
     padding-bottom: 10px;
     border-top: 5px solid #971033;
 }
