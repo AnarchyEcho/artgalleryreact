@@ -21,7 +21,7 @@ function BtnDark() {
       background: "none",
       color: "#971033",
       borderRadius: "3%",
-      fontSize: "2em",
+      fontSize: "3em",
       cursor: "pointer",
       border: "none",
       margin: "5px"
