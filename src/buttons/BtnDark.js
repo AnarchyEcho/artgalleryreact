@@ -9,7 +9,7 @@ import { faAdjust as Adjust } from '@fortawesome/free-solid-svg-icons'
 
 
 
-function BtnDark() {
+export default function BtnDark() {
     // target for darkmode css toggling
     const element = document.body;
     
@@ -37,5 +37,3 @@ function BtnDark() {
     </div>
   );
 }
-
-export default BtnDark
