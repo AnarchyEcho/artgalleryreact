@@ -13,7 +13,7 @@ export default function About() {
       </div>
 
       <div id="links">
-        <p><b>Link to Immy's Medias</b></p>
+        <p><b>Link to my medias</b></p>
         <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">Instagram</a>
       </div>
 
