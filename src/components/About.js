@@ -7,6 +7,7 @@ import Style from "../style.css"
 export default function About() {
   return (
     <div>
+      <h2>About me</h2>
       <p>Amazing artist</p>
     </div>
   );

@@ -26,9 +26,10 @@ a {
     gap: 0px 0px; 
     grid-template-areas: 
         "Title Title Title Title"
-        "Home Portfolio Commercial About"; 
-    justify-items: center; 
-    align-items: center; 
+        "Home Portfolio Commercial About";
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 #navbar a {

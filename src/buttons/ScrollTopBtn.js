@@ -3,6 +3,8 @@ import React, {useEffect, useState} from "react"
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import Style from "../style.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleUp as up } from '@fortawesome/free-solid-svg-icons'
 
 function ScrollTopBtn() {
   // css for the button
@@ -44,7 +46,7 @@ function ScrollTopBtn() {
 
     return (
     <>
-      <button onClick={topFunction} style={style}>^</button>
+      <button onClick={topFunction} style={style}><FontAwesomeIcon icon={up} /></button>
     </>
   );
 }
