@@ -38,6 +38,7 @@ export default function BtnDark() {
       if (Image === Light) {setImage(Dark);}
       else if (Image === Dark) {setImage(Light);}
     }
+    
     return (
     <div>
       <button onClick={darkmode} style={style}><img id="darkimg" src={Image} alt=""/></button>
