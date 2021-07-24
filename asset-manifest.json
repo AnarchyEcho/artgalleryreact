@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/artgalleryreact/static/css/main.19125489.chunk.css",
-    "main.js": "/artgalleryreact/static/js/main.cc3dc2fb.chunk.js",
-    "main.js.map": "/artgalleryreact/static/js/main.cc3dc2fb.chunk.js.map",
+    "main.css": "/artgalleryreact/static/css/main.2566667c.chunk.css",
+    "main.js": "/artgalleryreact/static/js/main.637f4d5f.chunk.js",
+    "main.js.map": "/artgalleryreact/static/js/main.637f4d5f.chunk.js.map",
     "runtime-main.js": "/artgalleryreact/static/js/runtime-main.42aba40d.js",
     "runtime-main.js.map": "/artgalleryreact/static/js/runtime-main.42aba40d.js.map",
     "static/js/2.cc310606.chunk.js": "/artgalleryreact/static/js/2.cc310606.chunk.js",
     "static/js/2.cc310606.chunk.js.map": "/artgalleryreact/static/js/2.cc310606.chunk.js.map",
     "index.html": "/artgalleryreact/index.html",
-    "static/css/main.19125489.chunk.css.map": "/artgalleryreact/static/css/main.19125489.chunk.css.map",
+    "static/css/main.2566667c.chunk.css.map": "/artgalleryreact/static/css/main.2566667c.chunk.css.map",
     "static/js/2.cc310606.chunk.js.LICENSE.txt": "/artgalleryreact/static/js/2.cc310606.chunk.js.LICENSE.txt",
     "static/media/darkmode.b645f4b0.png": "/artgalleryreact/static/media/darkmode.b645f4b0.png",
     "static/media/lightmode.efc416aa.png": "/artgalleryreact/static/media/lightmode.efc416aa.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.42aba40d.js",
     "static/js/2.cc310606.chunk.js",
-    "static/css/main.19125489.chunk.css",
-    "static/js/main.cc3dc2fb.chunk.js"
+    "static/css/main.2566667c.chunk.css",
+    "static/js/main.637f4d5f.chunk.js"
   ]
 }
