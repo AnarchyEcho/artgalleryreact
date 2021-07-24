@@ -32,14 +32,11 @@ export default function BtnDark() {
    }
 
     const [Image, setImage] = React.useState(Light);
-
     // function that toggles targeted css from css file
     function darkmode() {
       element.classList.toggle("dark-mode");
-      
       if (Image === Light) {setImage(Dark);}
-      if (Image === Dark) {setImage(Light);}
-
+      else if (Image === Dark) {setImage(Light);}
     }
     return (
     <div>

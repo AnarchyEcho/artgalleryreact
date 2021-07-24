@@ -181,7 +181,7 @@ iframe {
 
   .dark-mode #darkimg {
     width: 60px;
-    filter:invert(1);
+    filter: invert(1);
   }
 
   .dark-mode {
