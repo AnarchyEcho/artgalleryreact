@@ -23,7 +23,7 @@ a {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 0.5fr; 
-    gap: 0px 0px; 
+    gap: 0px 10px; 
     grid-template-areas: 
         "Title Title Title Title"
         "Home Portfolio Commercial About";
@@ -74,7 +74,7 @@ a {
 /* Portrait */
 
 #portrait {
-    margin-top: 1rem;
+    margin-top: 1.6rem;
     overflow-x: hidden;
 }
 
@@ -147,23 +147,13 @@ iframe {
 
 /* Dark mode button */
 
-#darkbtn {
-    display: flex;
-    justify-content: center;
-  }
-  
   #darkimg {
-      width: 50px;
+      width: 45px;
   }
 
   .dark-mode {
       background-color: #FAFAFA;
   }
-
-  .dark-mode img {
-    filter: drop-shadow(0 0 0.15rem black);
-  }
-
 
 /* Scrollbar css */
 
@@ -188,6 +178,9 @@ iframe {
 /* Media queries */
 
     @media only screen and (max-width: 426px) {
+    #darkimg {
+        width: 35px;
+    }
     #portrait img{
         width: 200px;
     }
