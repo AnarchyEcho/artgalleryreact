@@ -104,7 +104,7 @@ iframe {
         transform: translate(100%, 0);
     }
     100% {
-        transform: translate(-80%, 0);
+        transform: translate(-100%, 0);
     }
   }
 
