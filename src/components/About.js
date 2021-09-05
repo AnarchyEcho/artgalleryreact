@@ -12,7 +12,7 @@ export default function About() {
       <p>21 years old</p>
       <p>👩‍🎨🇬🇧</p>
       <p>CG: Art at SSU</p>
-      <h2>feel free to dm me for commissions</h2>
+      <h2>feel free to email me or DM me on instagram/twitter for commissions</h2>
     </div>
   );
 }
