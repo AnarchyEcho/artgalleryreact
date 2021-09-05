@@ -3,18 +3,21 @@ import React from "react"
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import Style from "../style.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagram as Insta, faTwitter as Twt, } from "@fortawesome/free-brands-svg-icons";
 
 export default function About() {
   return (
     <div id="footer">
       <div id="copyright">
-        <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF IMMU.JPG</p>
+        <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">IMMU.JPG</a></p>
         <p>&copy; Copyright 2021 <a href="https://github.com/anarchytrex" target="_blank" rel="noreferrer">Andre Hagen</a></p>
       </div>
 
       <div id="links">
         <p><b>Link to my medias</b></p>
-        <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={Insta} /> Instagram</a> <br />
+        <a href="https://twitter.com/immu_jpg" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={Twt} /> Twitter</a>
       </div>
 
       <div id="contact">

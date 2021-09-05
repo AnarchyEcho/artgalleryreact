@@ -8,7 +8,11 @@ export default function About() {
   return (
     <div>
       <h2>About me</h2>
-      <p>Amazing artist</p>
+      <p>📍Southampton</p>
+      <p>21 years old</p>
+      <p>👩‍🎨🇬🇧</p>
+      <p>CG: Art at SSU</p>
+      <h2>feel free to dm me for commissions</h2>
     </div>
   );
 }
