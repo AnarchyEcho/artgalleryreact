@@ -1,7 +1,7 @@
 import React from "react"
 // eslint-disable-next-line
 import ReactDOM from "react-dom"
-// eslint-disable-next-line
+// @ts-ignore
 import Style from "../style.css"
 
 export default function About() {

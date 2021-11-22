@@ -1,10 +1,10 @@
 // eslint-disable-next-line
-import React, { setState, useEffect, } from "react"
+import React from "react"
 // eslint-disable-next-line
 import ReactDOM from "react-dom"
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, Link, Redirect} from 'react-router-dom';
-// eslint-disable-next-line
+// @ts-ignore
 import Style from "./style.css"
 
 
