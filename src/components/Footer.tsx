@@ -10,8 +10,8 @@ export default function About() {
   return (
     <div id="footer">
       <div id="copyright">
-        <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">IMMU.JPG</a></p>
-        <p>&copy; Copyright 2021 <a href="https://github.com/anarchytrex" target="_blank" rel="noreferrer">Andre Hagen</a></p>
+        <p>ALL MEDIA AND CONTENT IS &copy;COPYRIGHT OF <a href="https://www.instagram.com/immu.jpg/" target="_blank" rel="noreferrer">IMMU.JPG</a> 2021 - {`${new Date().getFullYear()}`}</p>
+        <p>&copy; Copyright 2021 - {`${new Date().getFullYear()}`} <a href="https://github.com/anarchytrex" target="_blank" rel="noreferrer">Andre Hagen</a></p>
       </div>
 
       <div id="links">
